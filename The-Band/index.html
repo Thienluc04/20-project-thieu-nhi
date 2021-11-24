@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./owl-carosel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-carosel/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-logo">
+                Logo
+            </div>
+            <div class="header-navbar">
+                <ul class="header-navbar-list">
+                    <li class="header-navbar-item active">
+                        <a href="#home" class="header-navbar-item-link">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="#band" class="header-navbar-item-link">
+                            BAND
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="#tour" class="header-navbar-item-link">
+                            TOUR
+                        </a>
+                    </li>
+                    <li class="header-navbar-item">
+                        <a href="#contact" class="header-navbar-item-link">
+                            CONTACT
+                        </a>
+                    </li>
+                    <li class="header-navbar-item drop">
+                        <a class="header-navbar-item-link">
+                            MORE 
+                            <i class='bx bxs-down-arrow'></i>
+                        </a>
+                        <ul class="navbar__dropdown">
+                            <li class="navbar__dropdown-item">
+                                <a href="#" class="navbar__dropdown-item-link">
+                                    Merchandise
+                                </a>
+                            </li>
+                            <li class="navbar__dropdown-item">
+                                <a href="#" class="navbar__dropdown-item-link">
+                                    Extras
+                                </a>
+                            </li>
+                            <li class="navbar__dropdown-item">
+                                <a href="#" class="navbar__dropdown-item-link">
+                                    Media
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <span class="icon-search">
+                        <i class='bx bx-search'></i>
+                    </span>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div id="home" class="slider">
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <img src="./img/slider1.jpg" alt="">
+                            <div class="slider-text">
+                                <p>
+                                    New York
+                                </p>
+                                <span>The atmosphere in New York is lorem ipsum.</span>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <img src="./img/slider2.jpg" alt="">
+                            <div class="slider-text">
+                                <p>
+                                    Chicago
+                                </p>
+                                <span>Thank you, Chicago - A night we won't forget.</span>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <img src="/img/slider3.jpg" alt="">
+                            <div class="slider-text">
+                                <p>
+                                    LA
+                                </p>
+                                <span>Even though the traffic was a mess, we had the best time playing at Venice Beach!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="band" class="grid wide">
+            <div class="the-band-wrapper">
+                <h1 class="the-band__heading">
+                    The Band
+                </h1>
+                <span class="the-band__slogan">
+                    We love music!
+                </span>
+                <p class="the-band__desc">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+    
+                <div class="the-band__member">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <p>Name</p>
+                            <img src="./img/bandmember.jpg" onclick="inforShow()" alt="">
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <p>Name</p>
+                            <img src="./img/bandmember.jpg" alt="">
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <p>Name</p>
+                            <img src="./img/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tour" class="tour">
+            <div class="grid wide">
+                <div class="tour-wrapper">
+                    <h1 class="tour-heading">
+                        Tour Dates
+                    </h1>
+                    <span class="tour-slogan">
+                        Lorem ipsum we'll play you some music. <br>
+                        Remember to book your tickets!
+                    </span>
+    
+                    <div class="tour-month">
+                        <ul class="tour-month-list">
+                            <li class="tour-month-item">
+                                September
+                                <span class="out-of-stock">
+                                    Sold Out!
+                                </span>
+                            </li>
+                            <li class="tour-month-item">
+                                October
+                                <span class="out-of-stock">
+                                    Sold Out!
+                                </span>
+                            </li>
+                            <li class="tour-month-item">
+                                November
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="thumnail">
+                                <img class="thumbnail-img" src="./img/paris.jpg" alt="">
+                                <div class="thumnail__content">
+                                    <p>
+                                        Paris
+                                    </p>
+                                    <span>
+                                        Friday 27 November 2015
+                                    </span><br>
+                                    <button id="btnTicket">
+                                        Buy Tickets
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="thumbnail">
+                                <img class="thumbnail-img" src="./img/newyork.jpg" alt="">
+                                <div class="thumnail__content">
+                                    <p>
+                                        New York
+                                    </p>
+                                    <span>
+                                        Saturday 28 November 2015
+                                    </span><br>
+                                    <button id="btnTicket">
+                                        Buy Tickets
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="thumbnail">
+                                <img class="thumbnail-img" src="./img/sanfran.jpg" alt="">
+                                <div class="thumnail__content">
+                                    <p>
+                                        San Francisco
+                                    </p>
+                                    <span>
+                                        Sunday 29 November 2015
+                                    </span><br>
+                                    <button id="btnTicket">
+                                        Buy Tickets
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="grid wide">
+            <div class="contact">
+                <div class="contact-heading">
+                    Contact
+                </div>
+                <span class="contact-slogan">
+                    We love our fans!
+                </span>
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="contact__infor">
+                            <span>
+                                Fan? Drop a note.
+                            </span>
+                            <span>
+                                <i class='bx bxs-map'></i>
+                                Chicago, US
+                            </span>
+                            <span>
+                                <i class='bx bx-mobile'></i>
+                                Phone: +00 1515151515
+                            </span>
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                                Email: mail@mail.com
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col l-8 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-6 m-12 c-12">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="col l-6 m-12 c-12">
+                                <input type="text" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <textarea class="input-bottom" type="text" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <button class="contact__btn">
+                            Send
+                        </button>
+                    </div>
+                </div>
+                <h3 class="blog-heading">
+                    From The Blog
+                </h3>
+                <ul class="blog-nav-list">
+                    <li class="blog-nav-item active">
+                        Mike
+                    </li>
+                    <li class="blog-nav-item">
+                        Chandler
+                    </li>
+                    <li class="blog-nav-item">
+                        Peter
+                    </li>
+                </ul>
+                <div class="blog-text active">
+                    <h1 class="blog-title">
+                        Mike Ross, Manager
+                    </h1>
+                    <span class="blog-desc">
+                        Man, we've been on the road for some time now. Looking forward to lorem ipsum.
+                    </span>
+                </div>
+                <div class="blog-text">
+                    <h1 class="blog-title">
+                        Chandler Bing, Guitarist
+                    </h1>
+                    <span class="blog-desc">
+                        Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?
+                    </span>
+                </div>
+                <div class="blog-text">
+                    <h1 class="blog-title">
+                        Peter Griffin, Bass player
+                    </h1>
+                    <span class="blog-desc">
+                        I mean, sometimes I enjoy the show, but other times I enjoy other things.
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="ticket">
+                <div class="ticket-heading">
+                    <i class='bx bxs-lock-alt'></i>
+                    <span>Tickets</span>
+                    <i class='bx bx-x close ticket__closeBtn'></i>
+                </div>
+                <div class="ticket-form">
+                    <div class="ticket-item">
+                        <span><i class='bx bxs-cart-alt' ></i>Tickets, $23 per person</span>
+                        <input type="number" placeholder="How many?"> 
+                    </div>
+                    <div class="ticket-item">
+                        <span><i class='bx bxs-user' ></i>Send To</span>
+                        <input type="email" placeholder="Enter email"> 
+                    </div>
+                    <button>Pay<i class="fas fa-check"></i></button>
+                </div>
+                <div class="ticket-end">
+                    <button class="cancelBtn"><i class="fas fa-times"></i> Cancel</button>
+                    <div class="help">
+                        <span>Need</span>
+                        <a href="#">help?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-overlay">
+    
+        </div>
+    </div>
+    <div class="footer">
+        <img class="footer-map" src="./img/map.jpg" alt="">
+        <div class="footer-end">
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+            <span>
+                Bootstrap Theme Made By
+                <a href="w3schools.com"> www.w3schools.com</a>
+            </span>
+        </div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./owl-carosel/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    responsiveClass:true,
+    autoWith:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+            loop:true
+        },
+        600:{
+            items:1,
+            nav:false,
+            loop:true
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:true
+        }
+    },
+    mouseDrag: false,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    smartSpeed: 500,
+    navText: ["<i class='bx bxs-chevron-left'></i>","<i class='bx bxs-chevron-right'></i>"],
+})
+</script>
+</html>

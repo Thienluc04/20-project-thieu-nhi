@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://kit.fontawesome.com/0f054e5ec5.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            text-align: center;
+            background-image: url(./img/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: aquamarine;
+            text-shadow: 2px 2px #333;
+        }
+        .main {
+            display: block;
+            padding-top: 100px;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .weather {
+            width: 100%;
+            border: 2px solid aqua;
+            border-radius: 5px;
+        }
+        .weather .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid aquamarine;
+            padding: 10px;
+        }
+        .item i {
+            font-size: 30px;
+            color: lightgoldenrodyellow;
+        }
+        .cloud span {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Thời tiết thủ đô Hà Nội</h1>
+    <div class="main">
+        <h2>8 Ngày gần nhất:</h2>
+        <div class="weather">
+            <div class="item">
+                <span>Thứ 3, ngày 7 tháng 10</span>
+                <div class="cloud">
+                    <i class="fas fa-cloud-sun-rain"></i>
+                    <span>31 / 25°C </span>
+                    <span> Mưa vừa</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

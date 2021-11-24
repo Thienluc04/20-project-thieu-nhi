@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <style>
+        body {
+        background: darksalmon;
+        }
+
+        .fill {
+            background-image: url('https://source.unsplash.com/random/150x150');
+            position: relative;
+            height: 150px;
+            width: 150px;
+            top: 5px;
+            left: 5px;
+            cursor: pointer;
+        }
+
+        .hold {
+            border: solid 5px #ccc;
+        }
+
+        .empty {
+            display: inline-block;
+            height: 160px;
+            width: 160px;
+            margin: 10px;
+            border: solid 3px salmon;
+            background: white;
+        }
+
+        .hovered {
+        background: #f4f4f4;
+        border-style: dashed;
+        }
+        
+        .invisible {
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="empty">
+      <div class="fill" draggable="true"> </div>
+    </div>
+    
+    <div class="empty">
+    </div>
+
+    <div class="empty">
+    </div>
+
+    <div class="empty">
+    </div>
+
+    <div class="empty">
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

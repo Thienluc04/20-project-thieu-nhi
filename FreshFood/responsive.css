@@ -1,0 +1,96 @@
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    .header-navbar-list {
+        display: none;
+    }   
+
+    .section-home-heading {
+        font-size: 6rem;
+    }
+
+    .section-home-desc {
+        padding-top: 0;
+    }
+
+    .section-home {
+        background-position: center center;
+    }
+
+    .navbar__mobile {
+        display: block;
+    }
+
+    .up-to-top {
+        display: none !important;
+    }
+    
+    .section-about {
+        background-image: url(./img/dan-gold-4_jhDO54BYg-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .section-about-img {
+        display: none;
+    }
+
+    .section-about-slogan {
+        transform: none !important;
+    }
+
+    .testimonials-item  {
+        margin: 10px 0;
+        transform: scale(1) !important;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 120px;
+        background-position: right center;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer-heading {
+        font-size: 3.6rem;
+    }
+
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .section-about-slogan {
+        margin: 0 10px;
+    }
+
+    .section-menu-wrap {
+        padding: 60px 20px;
+    }
+
+    .food-item {
+        height: 240px;
+        margin-bottom: 50px;
+    }
+
+    .section-testimonials {
+        padding: 120px 10px;
+    }
+
+    .testimonials-item {
+        padding: 0;
+    }
+
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
