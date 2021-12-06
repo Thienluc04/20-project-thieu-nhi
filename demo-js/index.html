@@ -5,27 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <div>
-        <h2>Danh sách khóa học</h2>
-        <ul id="list-course">
+   
 
-        </ul>
-    </div>
-
-    <div>
-        <div>
-            <label for="">Name</label>
-            <input type="text" name="name">
+    <div class="wrapper">
+        <div class="form">
+            <div class="item">
+                <label for="">Name </label>
+                <input type="text" name="name">
+            </div>
+            <div class="item">
+                <label for="">Description </label>
+                <input type="text" name="description">
+            </div>
+            <div class="item">
+                <label for="">Image url </label>
+                <input type="text" name="image">
+            </div>
+            <div class="item">
+                <button id="create" class="update">Create</button>
+            </div>
         </div>
-        <div>
-            <label for="">Description</label>
-            <input type="text" name="description">
-        </div>
-        <div>
-            <button id="create" class="update">Create</button>
+    
+        <div class="products">
+            <h2 class="heading">Danh sách sản phẩm</h2>
+            <ul id="list-product">
+                
+            </ul>
         </div>
     </div>
 
